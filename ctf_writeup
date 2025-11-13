@@ -1,0 +1,18 @@
+# CTF Write-Up Example (picoCTF)
+
+## Challenge
+Vault Door 5 – Reverse engineering.
+
+## Tools Used
+- strings
+- CyberChef
+- Python decoder
+
+## Steps to Solve
+1. Extract encoded password.
+2. Decode using reversing logic.
+3. Recover flag.
+
+## Skills Demonstrated
+- Reverse engineering
+- Documentation
