@@ -1,0 +1,24 @@
+#!/bin/bash
+echo "Updating system..."
+sudo apt update && sudo apt upgrade -y
+
+echo "Saving user list..."
+cut -d: -f1 /etc/passwd > users.txt
+
+echo "Done."
+
+# Linux Automation Script
+
+## Overview
+A Bash script performing system updates and user auditing.
+
+## Features
+- Auto system update
+- User list extraction
+
+## Run
+
+
+## Skills Demonstrated
+- Bash scripting
+- Linux system admin
